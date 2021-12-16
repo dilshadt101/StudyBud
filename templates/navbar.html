@@ -1,6 +1,8 @@
-<div>
-    <a href="/">
-        <h1>LOGO</h1>
-        <hr>
-    </a>
-</div>
+<a href="/">
+    <h1>LOGO</h1>
+</a>
+<form action="{% url 'home' %}">
+    <input type="text" name="q" placeholder="Search rooms...">
+</form>
+
+<hr>
